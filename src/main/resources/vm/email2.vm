@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <style type="text/css">
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            max-width: 1000px;
+        }
+        .container .jumbotron,
+        .container-fluid .jumbotron {
+            border-radius: 6px;
+        }
+        .jumbotron {
+            padding: 30px 15px;
+            margin-bottom: 30px;
+            color: inherit;
+        }
+        .jumbotron h1,
+        .jumbotron .h1 {
+            color: inherit;
+        }
+        .jumbotron p {
+            margin-bottom: 15px;
+            font-size: 15px;
+            font-weight: 200;
+        }
+        .jumbotron > hr {
+            border-top-color: #d5d5d5;
+        }
+        .container .jumbotron,
+        .container-fluid .jumbotron {
+            border-radius: 6px;
+        }
+        .jumbotron .container {
+            max-width: 100%;
+        }
+        .left2em{
+            position: relative;
+            left: 2em;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h3>尊敬的用户：</h3>
+
+        <p class="left2em">您好！</p>
+
+        <p class="left2em"> 已经为您在云平台添加账号：$email。</p>
+
+        <p class="left2em">安全提示：</p>
+
+        <p class="left2em">为了您的账户安全，我们建议您尽快点击以下链接：<a href="$welcomeUrl">$welcomeUrl</a> 登录并修改密码信息。</p>
+
+        <p class="left2em">邮件中包含您的个人信息，建议您保管好本邮件！如您登录时忘记密码，请点登录页面的忘记密码按钮。</p>
+
+        <p class="left2em">感谢您的使用，我们将为您提供最贴心的服务！</p>
+
+        <div style="position: relative;left: 70%">
+            <p> $company</p>
+            <p> $date</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

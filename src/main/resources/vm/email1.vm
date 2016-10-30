@@ -1,0 +1,11 @@
+尊敬的用户：
+
+    您好！
+
+    截止 $accurateDate 为止您的账号：$email  余额为 $balance 低于预警值 $threshHold！
+
+    请您尽快进行充值操作以免影响您的使用。
+
+
+                                                                                                            $company
+                                                                                                            $date
